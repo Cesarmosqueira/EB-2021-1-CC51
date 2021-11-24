@@ -1,4 +1,4 @@
-data <- read.csv('data/MXvideos_cc50_202101.csv')
+data <- read.csv('../data/MXvideos_cc50_202101.csv')
 
 # Eliminar columnas con ID vacio y categoryId
 data <- data[!is.na(data$video_id),]
@@ -15,4 +15,4 @@ summary(is.na(data))
 
 View(data)
 
-write.csv(data,"data/cleaned_MXvideos_cc50_202101.csv", row.names = FALSE)
+write.csv(data,"../data/cleaned_MXvideos_cc50_202101.csv", row.names = FALSE)
