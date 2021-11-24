@@ -1,0 +1,51 @@
+   COL DESCRIPTION
+
+   video_id         trending_date         title           channel_title       category_id   publish_time      
+ Length:44043       Length:44043       Length:44043       Length:44043       Min.   : 1     Length:44043      
+ Class :character   Class :character   Class :character   Class :character   1st Qu.:20     Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character   Median :24     Mode  :character  
+                                                                             Mean   :21                       
+                                                                             3rd Qu.:24                       
+                                                                             Max.   :43                       
+                                                                             NA's   :3592                     
+     tags               views               likes            dislikes         comment_count   
+ Length:44043       Min.   :      157   Min.   :      0   Min.   :      0.0   Min.   :     0  
+ Class :character   1st Qu.:    16813   1st Qu.:    299   1st Qu.:     17.0   1st Qu.:    42  
+ Mode  :character   Median :    56973   Median :   1246   Median :     63.0   Median :   196  
+                    Mean   :   342382   Mean   :  15862   Mean   :    747.2   Mean   :  2040  
+                    3rd Qu.:   206894   3rd Qu.:   7226   3rd Qu.:    267.0   3rd Qu.:   885  
+                    Max.   :100912384   Max.   :4470923   Max.   :1353667.0   Max.   :905925  
+                    NA's   :3592        NA's   :3592      NA's   :3592        NA's   :3592    
+ thumbnail_link     comments_disabled  ratings_disabled   video_error_or_removed description       
+ Length:44043       Length:44043       Length:44043       Length:44043           Length:44043      
+ Class :character   Class :character   Class :character   Class :character       Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character       Mode  :character  
+                                                                                                   
+                                                                                                   
+                                                                                                   
+                                                                                                   
+    state                lat             lon            geometry        
+ Length:44043       Min.   :16.43   Min.   :-116.01   Length:44043      
+ Class :character   1st Qu.:18.92   1st Qu.:-103.50   Class :character  
+ Mode  :character   Median :20.38   Median : -99.67   Mode  :character  
+                    Mean   :21.48   Mean   :-100.24                     
+                    3rd Qu.:22.73   3rd Qu.: -98.23                     
+                    Max.   :30.76   Max.   : -86.71                     
+                                                     
+
+NA count
+	video_id       trending_date     title         channel_title   category_id     publish_time       tags        
+ Mode :logical   Mode :logical   Mode :logical   Mode :logical   Mode :logical   Mode :logical   Mode :logical  
+ FALSE:44043     FALSE:44043     FALSE:44043     FALSE:44043     FALSE:40451     FALSE:44043     FALSE:44043    
+                                                                 TRUE :3592                                     
+   views           likes          dislikes       comment_count   thumbnail_link  comments_disabled
+ Mode :logical   Mode :logical   Mode :logical   Mode :logical   Mode :logical   Mode :logical    
+ FALSE:40451     FALSE:40451     FALSE:40451     FALSE:40451     FALSE:44043     FALSE:44043      
+ TRUE :3592      TRUE :3592      TRUE :3592      TRUE :3592                                       
+ ratings_disabled video_error_or_removed description       state            lat             lon         
+ Mode :logical    Mode :logical          Mode :logical   Mode :logical   Mode :logical   Mode :logical  
+ FALSE:44043      FALSE:44043            FALSE:44043     FALSE:44043     FALSE:44043     FALSE:44043    
+                                                                                                        
+  geometry      
+ Mode :logical  
+ FALSE:44043    
